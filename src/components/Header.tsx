@@ -81,7 +81,7 @@ function Header() {
             </ul>
             <ul className='inline mr-8  md:mr-[50px] ' >
                 <li className='inline'>
-                    <Link href="/new"><span className=' text-heading-xs lg:text-label-lg font-semibold text-white ' >Nouveautés</span></Link>
+                    <span className=' text-heading-xs lg:text-label-lg font-semibold text-white ' >Nouveautés</span>
                 </li> 
             </ul>
             <ul className='inline ' >
