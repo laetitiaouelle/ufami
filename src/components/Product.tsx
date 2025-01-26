@@ -9,7 +9,7 @@ function Product() {
         <div className="relative w-[187px] h-[215px]  md:w-[226px] md:h-[301px]  lg:w-[291px] lg:h-[387px] xl:w-[323px] xl:h-[430px] border border-black rounded-[26px]">
             <div className=" w-full h-full p-1 flex flex-col justify-between" >
                 <div className=" md:h-[187px] lg:h-[220px] flex items-center justify-center mb-4 relative md:mx-0 mx-auto " >
-                    <div className=' w-[150] h-[100px] sm:w-[200px] sm:h-[105px] md:h-[150px] lg:w-[250px] lg:h-[200px] relative ' >
+                    <div className=' w-[150px] h-[100px] sm:w-[200px] sm:h-[105px] md:h-[150px] lg:w-[250px] lg:h-[200px] relative ' >
                         <Image alt="produit" src={'/images/produit.png'}  layout='fill' objectFit='contain' />
                     </div>
                 </div>
