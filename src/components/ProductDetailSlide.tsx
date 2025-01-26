@@ -59,17 +59,32 @@ function ProductDetailSlide() {
     };
 
   return (
-    <div  className='flex flex-col items-center flex-1 ' >
-        <div onMouseOver={handleMouseOver} onMouseLeave={handleMouseLeave} className='relative md:w-[283px] lg:w-[378px] xl:w-[472px]'>
-            <Image
-              src={images[currentIndex].src}
-              alt={`Slider Image ${currentIndex + 1}`}
-              layout="intrinsic"
-              width={472}
-              height={405}
-              objectFit="contain"
-              className="transition-all duration-500 ease-in-out cursor-pointer"
-            />
+    <div  className='flex flex-col items-center flex-1  ' >
+        <div className='flex gap-2 w-full justify-between' >
+          <div className=' hidden lg:flex flex-col  justify-center items-center gap-5' >
+              {images.map((_, index) => (
+                  <div
+                  onClick={()=>setCurrentIndex(index)}
+                      key={index}
+                      className={` cursor-pointer w-[95px] h-[70px] lg:w-[126px] lg:h-[94px] xl:w-[157.54px] relative xl:h-[116.4px] flex items-center justify-center mx-[8px] transition-all duration-500 ease-in-out  `}
+                  >
+                      <Image alt={`Slider Image ${index + 1}`} layout="fill" objectFit="contain"  src={images[index].src} />
+                      {/* { index === currentIndex && <div className='h-[8.5px] w-[8.5px] bg-black rounded-full' ></div>} */}
+                  </div>
+              ))}
+          </div>
+          <div onMouseOver={handleMouseOver} onMouseLeave={handleMouseLeave} className='relative md:w-[283px] lg:w-[378px] xl:w-[472px] '>
+
+              <Image
+                src={images[currentIndex].src}
+                alt={`Slider Image ${currentIndex + 1}`}
+                layout="intrinsic"
+                width={472}
+                height={405}
+                objectFit="contain"
+                className="transition-all duration-500 ease-in-out cursor-pointer"
+              />
+          </div>
         </div>
         <div className='flex justify-center items-center my-[34px]' >
             {images.map((_, index) => (
@@ -85,7 +100,7 @@ function ProductDetailSlide() {
                 </div>
             ))}
         </div>
-        <div className='flex justify-center items-center w-full' >
+        <div className=' lg:hidden flex justify-center items-center w-full' >
             {images.map((_, index) => (
                 <div
                 onClick={()=>setCurrentIndex(index)}

@@ -7,7 +7,6 @@ import React from 'react'
 import {Accordion, AccordionItem} from "@nextui-org/accordion";
 import ProductSlider from '@/components/ProductSlider';
 
-
 function ProductDetail() {
   const colors:string[] =["#D8CCCE","#822828","#222222","#505E73"]
   const defaultContent =
@@ -21,7 +20,7 @@ function ProductDetail() {
       );
     };
   return (
-    <div>
+    <div >
      <Header/>
      <div className=' p-10 lg:px-20 py-12 bg-white ' >
         <div className='flex justify-between gap-8 lg:gap-16 xl:gap-44 flex-wrap md:flex-nowrap' >
