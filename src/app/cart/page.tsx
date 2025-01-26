@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react'
 import Image from 'next/image'
-import Product from '@/components/Product'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Uradio from '@/components/Uradio';
@@ -15,7 +14,7 @@ function Cart() {
   return (
     <div>
       <div className="flex items-center justify-center sm:-[35px] text-center text-para-sm lg:text-para-md text-white bg-[#4B4B4B] sm:px-0 px-3 py-2">
-        Derniers jours Black Friday, jusqu'à 40% de remise immédiate ! Nos magasins sont ouverts aujourd'hui !
+        Derniers jours Black Friday, jusqu&apos;à 40% de remise immédiate ! Nos magasins sont ouverts aujourd&apos;hui !
       </div>
       <Header/>
       
@@ -59,7 +58,7 @@ function Cart() {
                           <Uradio/>
                           <span className='text-heading-xs xl:text-heading-sm font-medium text-black ml-2 xl:ml-4' >Livraison en agence</span>
                         </div>
-                        <div><span className='text-heading-xs xl:text-para-lg font-medium text-[#00346D]' >Choisir l'agence</span></div>
+                        <div><span className='text-heading-xs xl:text-para-lg font-medium text-[#00346D]' >Choisir l&apos;agence</span></div>
                     </div>
                     <div className='flex items-center justify-between mb-6'>
                         <div className=' flex items-center' >

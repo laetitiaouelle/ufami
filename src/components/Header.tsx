@@ -6,7 +6,7 @@ import Link from 'next/link';
 function Header() {
   return (
     <div>
-      <div className=' py-8 lg:py-[48px] px-10 lg:px-16 xl:px-[103px] bg-white flex justify-between' >
+      <div className=' py-8 lg:py-[48px] px-10 lg:px-16 xl:px-[103px] bg-white flex justify-between'>
         <div className='flex items-center justify-between  ' >
             <div className=' mr-7 lg:mr-[50px]' >
                 <Image width={102} height={42} layout='intrinsic' alt={'ufami'} src={"/images/U’FAMI.png"} />
@@ -94,7 +94,6 @@ function Header() {
             </ul>
         </nav>
       </div>
-      
     </div>
   )
 }

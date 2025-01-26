@@ -6,13 +6,12 @@ import ContactUs from '@/components/profil/ContactUs';
 import Favorite from '@/components/profil/Favorite';
 import Notifications from '@/components/profil/Notifications';
 import Orders from '@/components/profil/Orders';
-import Image from 'next/image';
 import React, { useState } from 'react'
 
 function Profil() {
 
-const list:String[] = ["Mon compte","Favoris","Commandes","Notifications", "Contactez-nous"]
-const related:String[] =["/images/compte.png", "/images/Fav.png","/images/commandes.png"] 
+const list:string[] = ["Mon compte","Favoris","Commandes","Notifications", "Contactez-nous"]
+// const related:string[] =["/images/compte.png", "/images/Fav.png","/images/commandes.png"] 
 
 const [s, setS] = useState(0)
 

@@ -51,7 +51,7 @@ function Login() {
                     </svg>
                 </div>
                 <div className=' flex items-center justify-center ' >
-                    <span className=' text-para-md text-[#727272] font-medium ' >Vous n'avez pas encore de compte <Link href='/auth/register' ><span className=' text-[#193364]  font-semibold cursor-pointer ' >Créer un compte</span></Link></span>
+                    <span className=' text-para-md text-[#727272] font-medium ' >Vous n&apos;avez pas encore de compte <Link href='/auth/register' ><span className=' text-[#193364]  font-semibold cursor-pointer ' >Créer un compte</span></Link></span>
                 </div>
             </div>
             

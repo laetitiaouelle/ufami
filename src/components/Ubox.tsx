@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function Ubox() {
-    const [selected, setSelected] = useState<Boolean>(false)
+    const [selected, setSelected] = useState<boolean>(false)
   return (
     <div onClick={()=>setSelected(!selected)}  className=' cursor-pointer w-6 h-6 border-[1px] border-black flex items-center justify-center ' >
        {

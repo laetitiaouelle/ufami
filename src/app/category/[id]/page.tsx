@@ -8,7 +8,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 
 function ProductCategory() {
-  const categories:String[] = ["Iphone X", "Iphone 8", "Iphone 11", "Iphone 12", "Iphone 12 pro","Iphone 13"]
+  const categories:string[] = ["Iphone X", "Iphone 8", "Iphone 11", "Iphone 12", "Iphone 12 pro","Iphone 13"]
   const availables:{title:string, code:string}[] =[
     {title:"Rouge", code:'#822828'},
     {title:"Bleu", code:'#4B8CE1'},

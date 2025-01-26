@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <div className="flex items-center justify-center sm:-[35px] text-center text-para-sm lg:text-para-md text-white bg-[#4B4B4B] sm:px-0 px-3 py-2">
-        Derniers jours Black Friday, jusqu'à 40% de remise immédiate ! Nos magasins sont ouverts aujourd'hui !
+        Derniers jours Black Friday, jusqu&apos;à 40% de remise immédiate ! Nos magasins sont ouverts aujourd&apos;hui !
       </div>
       <Header/>
       <Slider />

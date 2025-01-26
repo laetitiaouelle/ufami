@@ -3,7 +3,6 @@
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Ubox from '@/components/Ubox';
-import Uradio from '@/components/Uradio'
 import Link from 'next/link'
 import React from 'react'
 
@@ -54,7 +53,7 @@ function UpdatePaymentInfo() {
                     </div>
 
                     <div className='mb-10' >
-                        <span className='text-[#727272] text-para-md my-4 block ' >Afin de recevoir le SMS de confirmation d'expédition.</span>
+                        <span className='text-[#727272] text-para-md my-4 block ' >Afin de recevoir le SMS de confirmation d&apos;expédition.</span>
                         <div className=' flex items-center gap-4 ' >
                             <Ubox/>
                             <span className=' text-[#727272] text-para-md ' >Choisir ce N° comme identifiant secondaire</span>
@@ -68,7 +67,7 @@ function UpdatePaymentInfo() {
                         <div className=' flex items-center gap-4 ' >
                             <Ubox/>
                             <div>
-                                <span className=' text-black font-semibold text-para-sm' >J'accepte les conditions générales de Ufami</span>
+                                <span className=' text-black font-semibold text-para-sm' >J&apos;accepte les conditions générales de Ufami</span>
                                 <span className='text-[#868686] text-para-sm block underline ' >Voir les conditions générales.</span>
                             </div>
                             

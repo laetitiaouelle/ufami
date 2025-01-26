@@ -17,7 +17,7 @@ function Register() {
                 Créer un compte pour profiter de nos incroyables offres et services
             </span>
             <span className=' block text-black font-bold text-headinng-lg text-center w-full mt-4 mb-6 ' >
-                C'est parti!
+                C&apos;est parti!
             </span>
             <div className='mt-6 w-full flex flex-col gap-7' >
                 <div className='h-[50px] w-full border border-[#727272] px-4 flex items-center ' >
