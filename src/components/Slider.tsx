@@ -67,27 +67,29 @@ function Slider() {
    return (
      <div className="relative w-full">
        <div
-         className="relative h-[358px] w-full"
+         className="relative w-full flex items-center justify-center bg-white"
          onMouseOver={handleMouseOver}
          onMouseLeave={handleMouseLeave}
        >
          <Image
            src={images[currentIndex].src}
            alt={`Slider Image ${currentIndex + 1}`}
-           layout="fill"
+           layout="intrinsic"
+           width={1514}
+           height={358}
            objectFit="cover"
-           className="transition-all duration-500 ease-in-out cursor-pointer"
+           className="transition-all duration-500 ease-in-out cursor-pointer border-0"
          />
        </div>
        <div className='absolute top-0 left-0 right-0 bottom-0'>
             <button
-                className="absolute left-[80px] top-1/2 transform  rounded-full hover:bg-[#fff] mx-1 -mt-[10px] -translate-y-1/2 text-black p-2 group"
+                className="absolute left-1 sm:left-3 md:left-5 lg:left-10 xl:left-[80px] top-1/2 transform  rounded-full hover:bg-[#fff] mx-1 -mt-[10px] -translate-y-1/2 text-black p-2 group"
                 onClick={prevSlide}
             >
                 <ChevronLeft className="text-black " />
             </button>
             <button
-                className="absolute right-[80px] top-1/2 transform  rounded-full hover:bg-[#fff] mx-1 -mt-[10px] -translate-y-1/2  text-black p-2 group"
+                className="absolute right-1 sm:right-3 md:right-5 lg:right-10 xl:right-[80px] top-1/2 transform  rounded-full hover:bg-[#fff] mx-1 -mt-[10px] -translate-y-1/2  text-black p-2 group"
                 onClick={nextSlide}
             >
                 <ChevronRight className="text-black " />

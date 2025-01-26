@@ -4,7 +4,7 @@ import Image from 'next/image'
 function Footer() {
   return (
     <div>
-        <div className='flex items-center justify-between bg-white py-[21px] px-[108px] ' >
+        {/* <div className='flex items-center justify-between bg-white py-[21px] px-[108px] ' >
           <div className='py-[40px] pr-[108px] flex items-center justify-between border-r-[2px] border-r-black'>
             <div>
               <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,68 +93,72 @@ function Footer() {
               <Image width={52} height={52} src={'/images/mtn.png'} alt={'mtn'} />
             </div>
           </div>
-        </div>
-        <div className='mt-[46px] mb-[31px] w-full flex flex-col items-center justify-center'>
+        </div> */}
+        <div className='pt-[46px] pb-[31px] w-full flex flex-col items-center justify-center px-10 sm:px-0 bg-[#4B4B4B]'>
           <span className='text-para-xl block text-white pb-6' >Inscrivez-vous a la newletter</span>
-          <div className=' w-[650px] h-[61px] bg-white rounded-[10px] px-[10px] py-[9px] border-[1px] border-[#C7C7C7] flex items-center justify-between'>
-              <div className='flex items-center justify-between' >
-                <span className='w-[44px] h-[39px]   mr-6  '>
-                  <svg width="44" height="39" viewBox="0 0 44 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.59078 29.6593C8.8166 29.6593 8.17071 29.4358 7.6531 28.9887C7.13549 28.5417 6.87612 27.9834 6.875 27.3138V11.6853C6.875 11.0167 7.13437 10.4589 7.6531 10.0118C8.17183 9.56481 8.81716 9.34081 9.5891 9.33984H34.4109C35.184 9.33984 35.8293 9.56384 36.3469 10.0118C36.8645 10.4598 37.1239 11.0176 37.125 11.6853V27.3153C37.125 27.9829 36.8656 28.5408 36.3469 28.9887C35.8282 29.4367 35.1828 29.6603 34.4109 29.6593H9.59078ZM22 19.6679L8.55556 12.0757V27.3153C8.55556 27.5756 8.65247 27.7894 8.84629 27.9568C9.04012 28.1242 9.28828 28.2079 9.59078 28.2079H34.4109C34.7123 28.2079 34.9599 28.1242 35.1537 27.9568C35.3475 27.7894 35.4444 27.5751 35.4444 27.3138V12.0743L22 19.6679ZM22 18.0482L34.9268 10.7912H9.07317L22 18.0482ZM8.55556 12.0757V10.7912V27.3153C8.55556 27.5756 8.65247 27.7894 8.84629 27.9568C9.04012 28.1242 9.28828 28.2079 9.59078 28.2079H8.55556V12.0757Z" fill="#C7C7C7"/>
-                  </svg>
-                </span>
-                <input type='text' placeholder='leroidavid@gmail.com' className='block w-full outline-none text-[#C7C7C7] text-label-xl font-medium' /> 
-              </div>
-              <div className=' bg-[#193364] w-[59px] h-[46px] rounded-[10px] flex items-center justify-center ' >
-                <span className=' text-para-xl text-white ' >ok</span>
-              </div>
+          <div className='  w-full sm:w-[430px] md:w-[650px] h-[61px] bg-white rounded-[10px] px-[10px] py-[9px] border-[1px] border-[#C7C7C7] flex items-center justify-between '>
+            <div className='flex items-center justify-between ' >
+              <span className='w-[44px] h-[39px]   mr-6  '>
+                <svg width="44" height="39" viewBox="0 0 44 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.59078 29.6593C8.8166 29.6593 8.17071 29.4358 7.6531 28.9887C7.13549 28.5417 6.87612 27.9834 6.875 27.3138V11.6853C6.875 11.0167 7.13437 10.4589 7.6531 10.0118C8.17183 9.56481 8.81716 9.34081 9.5891 9.33984H34.4109C35.184 9.33984 35.8293 9.56384 36.3469 10.0118C36.8645 10.4598 37.1239 11.0176 37.125 11.6853V27.3153C37.125 27.9829 36.8656 28.5408 36.3469 28.9887C35.8282 29.4367 35.1828 29.6603 34.4109 29.6593H9.59078ZM22 19.6679L8.55556 12.0757V27.3153C8.55556 27.5756 8.65247 27.7894 8.84629 27.9568C9.04012 28.1242 9.28828 28.2079 9.59078 28.2079H34.4109C34.7123 28.2079 34.9599 28.1242 35.1537 27.9568C35.3475 27.7894 35.4444 27.5751 35.4444 27.3138V12.0743L22 19.6679ZM22 18.0482L34.9268 10.7912H9.07317L22 18.0482ZM8.55556 12.0757V10.7912V27.3153C8.55556 27.5756 8.65247 27.7894 8.84629 27.9568C9.04012 28.1242 9.28828 28.2079 9.59078 28.2079H8.55556V12.0757Z" fill="#C7C7C7"/>
+                </svg>
+              </span>
+              <input type='text' placeholder='leroidavid@gmail.com' className='block w-full outline-none text-[#C7C7C7] text-label-xl font-medium' /> 
+            </div>
+            <div className=' bg-[#193364] w-[59px] h-[46px] rounded-[10px] flex items-center justify-center ' >
+              <span className=' text-para-xl text-white ' >ok</span>
+            </div>
           </div>
         </div>
         <div className='pt-[46px] pb-20 bg-[#F3F3F3] flex flex-col items-center '>
-          <div className='flex mb-12' >
-            <div className=' mr-[80px]' >
-              <Image width={102} height={42} alt={'ufami'} src={"/images/U’FAMI.png"} />
-            </div>
-            <div className=' mr-[124px]' >
-                <span className='text-heading-md font-bold block mb-8' >Accueil</span>
+          <div className='flex mb-12 gap-12 md:gap-[124px] flex-wrap  px-10 justify-start' >
+            <div className=' ' >
+                <span className='text-heading-md font-bold block mb-8 text-black' >Accueil</span>
                 <ul className='flex flex-col items-center' >
-                  <li className='mb-5' ><a className='text-label-xl font-medium' >Titre</a></li>
-                  <li className='mb-5' ><a className='text-label-xl font-medium' >Titre</a></li>
-                  <li className='mb-5' ><a className='text-label-xl font-medium' >Titre</a></li>
-                </ul>
-            </div>
-            <div className='mr-[124px]' >
-                <span className='text-heading-md font-bold block mb-8' >Accueil</span>
-                <ul className='flex flex-col items-center'>
-                  <li className='mb-5' ><a className='text-label-xl font-medium' >Titre</a></li>
-                  <li className='mb-5' ><a className='text-label-xl font-medium' >Titre</a></li>
-                  <li className='mb-5' ><a className='text-label-xl font-medium' >Titre</a></li>
-                </ul>
-            </div>
-            <div className='mr-[124px]' >
-                <span className='text-heading-md font-bold block mb-8' >Accueil</span>
-                <ul className='flex flex-col items-center'>
-                  <li className='mb-5' ><a className='text-label-xl font-medium' >Titre</a></li>
-                  <li className='mb-5' ><a className='text-label-xl font-medium' >Titre</a></li>
-                  <li className='mb-5' ><a className='text-label-xl font-medium' >Titre</a></li>
+                  <li className='mb-5' ><a className='text-label-xl font-medium text-black' >Titre</a></li>
+                  <li className='mb-5' ><a className='text-label-xl font-medium text-black' >Titre</a></li>
+                  <li className='mb-5' ><a className='text-label-xl font-medium text-black' >Titre</a></li>
                 </ul>
             </div>
             <div className='' >
-                <span className='text-heading-md font-bold block mb-8' >Contacts</span>
+                <span className='text-heading-md font-bold block mb-8 text-black' >Accueil</span>
+                <ul className='flex flex-col items-center'>
+                  <li className='mb-5' ><a className='text-label-xl font-medium text-black' >Titre</a></li>
+                  <li className='mb-5' ><a className='text-label-xl font-medium text-black' >Titre</a></li>
+                  <li className='mb-5' ><a className='text-label-xl font-medium text-black' >Titre</a></li>
+                </ul>
+            </div>
+            <div className=' ' >
+                <span className='text-heading-md font-bold block mb-8 text-black' >Accueil</span>
+                <ul className='flex flex-col items-center'>
+                  <li className='mb-5' ><a className='text-label-xl font-medium text-black' >Titre</a></li>
+                  <li className='mb-5' ><a className='text-label-xl font-medium text-black' >Titre</a></li>
+                  <li className='mb-5' ><a className='text-label-xl font-medium  text-black' >Titre</a></li>
+                </ul>
+            </div>
+            <div className='' >
+                <span className='text-heading-md font-bold block mb-8 text-black' >Contacts</span>
                 <ul>
-                  <li className='mb-5' ><a className='text-label-xl font-medium' >+ 225 xxx xxxxx</a></li>
-                  <li className='mb-5' ><a className='text-label-xl font-medium' >Titre</a></li>
-                  <li className='mb-5' ><a className='text-label-xl font-medium' >Titre</a></li>
+                  <li className='mb-5' ><a className='text-label-xl font-medium text-black' >+ 225 xxx xxxxx</a></li>
+                  <li className='mb-5' ><a className='text-label-xl font-medium text-black' >Titre</a></li>
+                  <li className='mb-5' ><a className='text-label-xl font-medium text-black' >Titre</a></li>
                 </ul>
             </div>
           </div>
-          <div className='flex items-center justify-around ' >
-            <span className=' text-para-xl text-black mr-6 ' >Télécharger l’app</span>
-            <div className='w-[142px] h-[44px] mr-4 '>
-              <Image width={142} height={44} src={'/images/gp.png'} alt='gp' />
-            </div>
-            <div className='w-[142px] h-[44px]'>
-              <Image width={142} height={44} src={'/images/as.png'} alt='gp' />
+          <div className='flex items-center justify-around w-full flex-wrap px-10 gap-3' >
+            <div className=' my-5 md:my-0' >
+                <Image width={102} height={42} alt={'ufami'} src={"/images/U’FAMI.png"} />
+              </div>
+            <div className='flex items-center justify-around flex-wrap ' >
+              <span className=' text-para-xl text-black mr-6 ' >Télécharger l’app</span>
+              <div className='flex' >
+                <div className='w-[142px] h-[44px] mr-4 '>
+                  <Image width={142} height={44} src={'/images/gp.png'} alt='gp' />
+                </div>
+                <div className='w-[142px] h-[44px]'>
+                  <Image width={142} height={44} src={'/images/as.png'} alt='gp' />
+                </div>
+              </div>
             </div>
           </div>
         </div>
