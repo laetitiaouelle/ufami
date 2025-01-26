@@ -26,9 +26,12 @@ function Login() {
                 <div className='h-[50px] w-full border border-[#727272] px-4 flex items-center' >
                     <input type='text' className='w-full placeholder:text-[#727272] placeholder:font-semibold placeholder:text-label-lg outline-none bg-white text-[#727272] font-semibold text-label-lg' placeholder='Mot de passe' />
                 </div>
-                <div  className='cursor-pointer bg-[#193364] text-white font-semibold h-10 rounded-[60px] flex items-center justify-center ' >
-                    Se connecter
-                </div>
+                <Link href='/' >
+                    <div  className='cursor-pointer bg-[#193364] text-white font-semibold h-10 rounded-[60px] flex items-center justify-center ' >
+                        Se connecter
+                    </div>
+                </Link>
+                
                 <div className=' h-6 flex justify-between items-center gap-[26px] ' >
                     <span className='flex-1 flex h-[2px] bg-[#727272] ' ></span>
                     <span className=' text-[#727272] text-label-lg font-medium' >ou avec</span>

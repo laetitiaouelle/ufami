@@ -42,7 +42,7 @@ function ProductDetail() {
             </div>
             <div className=' flex items-center justify-between pt-2 ' >
               <span className='text-heading-sm text-[#A6A6A6] font-bold' >Sport</span>
-                <div className='py-[4.64px] px-[6.97px] bg-[#F3F3F3] rounded-[29.04] flex items-center'>
+                <div className='py-[4.64px] px-[6.97px] bg-[#F3F3F3] rounded-[30px] flex items-center'>
                   <div className=' w-[31.36px] h-[31.36px] rounded-full border-[1.16px] border-[#122032] flex items-center justify-center  mr-[12.78px]' >
                       <svg width="16" height="3" viewBox="0 0 16 3" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M1.17969 1.14062H15.1181" stroke="#132133" strokeWidth="1.74231" strokeLinecap="round"/>
@@ -147,17 +147,13 @@ function ProductDetail() {
             
           </Accordion>
         </div> 
-        <div className="w-full bg-white pt-[60px] ">
-          <div className="text-heading-xl font-medium mb-[48px] text-black" >Vous pourrez également apprécier </div>
-            <div className="py-[42px]" >
+        <div className="w-full bg-white pt-5 sm:pt-12 lg:pt-[60px] lg:px-[64px] ">
+          <div className="text-para-xl lg:text-display-md xl:text-heading-xl font-medium mb-6 lg:mb-[48px] text-black" >Vous pourrez également apprécier </div>
               <ProductSlider/>
-            </div>
         </div>
-        <div className="w-full bg-white pt-[60px] ">
-          <div className="text-heading-xl font-medium mb-[48px] text-black" >Sélectionn de nos partenaires</div>
-          <div className="py-[42px]" >
+        <div className="w-full bg-white pt-12 lg:pt-[60px] lg:px-[64px] ">
+          <div className="text-para-xl lg:text-display-md xl:text-heading-xl font-medium mb-6 lg:mb-[48px] text-black" >Sélectionn de nos partenaires</div>
             <ProductSlider/>
-          </div>
         </div>
      </div>
      <Footer/>
